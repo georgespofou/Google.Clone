@@ -1,0 +1,83 @@
+
+body{
+     
+      margin-left: auto;
+      margin-right: auto;
+      width: 400px;
+      border: 1px dotted; 
+      
+      
+}
+
+
+
+.main {
+       margin-top: 10px;
+      /* text-align: center;*/
+      
+        display: block;
+        
+  
+  .logo {
+          width: 130px;
+         margin-bottom: 4px;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+       }
+  
+       .search {  border: 1px solid rgb(206, 203, 203); 
+               width: 300px;
+               border-radius: 40px;
+               height: 33px;
+               display: block;
+               cursor: pointer;
+               margin-left: auto;
+               margin-right:auto;
+               ;
+              
+
+              }
+    .search:hover{
+                background: white;
+                border: 2px solid rgb(206, 203, 203);
+  
+               }
+
+          .btn {display: flex;
+              justify-content: space-between;
+                       
+          }
+
+
+        .Search-btn{font-size: 16px;
+              border: 1px solid #f8f9fa;
+              padding: 5px;
+              margin-left: 30px;
+              cursor: pointer;
+
+          }
+
+          .Search-btn:hover{
+            background-color:white;
+
+            border-color: blanchedalmond;
+          }
+
+
+          .Lucky-btn{font-size: 16px;
+            border: 1px solid #f8f9fa;
+            padding: 5px;
+            margin-right: 30px;
+            cursor: pointer;
+
+
+          }
+
+          .Lucky-btn:hover{ background-color:white;
+            border-color: blanchedalmond;
+
+          }
+
+
+
